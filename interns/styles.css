@@ -174,3 +174,16 @@ body{
 .wrapper.collapse.chatbox{
   color: white;
 }
+
+
+/* button */
+
+#btns{
+  border-radius: 15px;
+  padding: 10px;
+  width: 40em;
+  height: 80px;
+  font-weight: bold;
+  margin: 4px;
+  
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>swahilipot hub interns portal</title>
+	<link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e73de868d4.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script>
+  <style>
+    .block {
+      display: block;
+      width: 10%;
+      border: none;
+      background-color: #000000;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo"><img src="swahi.jpg" height="35px" width="144px"></div>
+      <div style="color: rgb(20, 33, 228);"><b>SWAHILIPOT HUB FOUNDATION INTERNS<b></b></div>
+      <ul>
+        <li><a href="#">
+            <i class="fas fa-bell"></i>
+            </a></li>
+            <li><a href="LogIn.html">
+              <i class="fa-solid fa-right-from-bracket"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar">
+    <ul>
+      <li><a href="profile.html">
+        <span class="icon"><i class="fa-solid fa-user"></i></span>
+        <span class="title">profile</span></a></li>
+      <li><a href="taskschedule.html">
+        <span class="icon"><i class="fa-solid fa-table-list"></i></span>
+        <span class="title">task schedule</span>
+        </a></li>
+      <li><a href="chartbox.html">
+        <span class="icon"><i class="fa-brands fa-rocketchat"></i></span>
+        <span class="title">chat box</span>
+        </a></li>
+      <li><a href="events.html">
+        <span class="icon"><i class="fa-solid fa-handshake"></i></span>
+        <span class="title">events</span>
+        </a></li>
+  </ul>
+  </div>
+  <div class="main_container">
+    <div  class="item">
+        <table style="width: 100%;">
+            <h1 align="center">task on progess</h1>
+            <tr>
+              <th>on going task</th>
+              <th>day of completion</th>
+              <th> remark</th>
+            </tr>
+            <tr>
+              <td>create website</td>
+              <td>b4 attachment completion</td>
+              <td>use react and node.js</td>
+            </tr>
+            <tr>
+              <td>you should subit logbooks on friday for signing</td>
+              <td>always in every week</td>
+              <td>till the completion of attachment</td>
+            </tr>
+          </table>
+          <br>
+          <a href="taskschedule.html">
+            <button class="block"><b>back</b></button>
+          </a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+select, textarea {
+	width: 300px;
+}
+
+input[type="submit"] {
+	margin-left: 110px;
+}
+
+.conversation {
+	margin-top: 50px;
+}
+
+.message {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.sender {
+	font-weight: bold;
+}
+
+.timestamp {
+	font-size: 0.8em;
+	color: #888;
+}
+
+.reply-link {
+	text-align: right;
+	font-size: 0.8em;
+	margin-top: 5px;
+}
+
+.reply-link a {
+	color: blue;
+	text-decoration: none;
+}

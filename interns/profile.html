@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>swahilipot hub interns portal</title>
+	<link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e73de868d4.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo"><img src="swahi.jpg" height="35px" width="144px"></div>
+      <div style="color:  rgb(20, 33, 228);"><b>SWAHILIPOT HUB FOUNDATION INTERNS<b></b></div>
+      <ul>
+        <li><a href="#">
+            <i class="fas fa-bell"></i>
+            </a></li>
+            <li><a href="LogIn.html">
+              <i class="fa-solid fa-right-from-bracket"></i></a></li>
+      </ul>
+    </div>
+  </div>
+        <div class="sidebar">
+          <ul>
+            <li><a href="profile.html">
+              <span class="icon"><i class="fa-solid fa-user"></i></span>
+              <span class="title">profile</span></a></li>
+            <li><a href="taskschedule.html">
+              <span class="icon"><i class="fa-solid fa-table-list"></i></span>
+              <span class="title">task schedule</span>
+              </a></li>
+            <li><a href="chartbox.html">
+              <span class="icon"><i class="fa-brands fa-rocketchat"></i></span>
+              <span class="title">chat box</span>
+              </a></li>
+            <li><a href="events.html">
+              <span class="icon"><i class="fa-solid fa-handshake"></i></span>
+              <span class="title">events</span>
+              </a></li>
+        </ul>
+        </div>
+  <div class="main_container">
+    <form>
+    <div class="item">
+      <div class="div-1"><img src="useeer.png" height="200" width="200"></a></div>
+      <label for="uname"><b>name</b></label>
+      <input type="text" placeholder="full name" name="uname" required>
+      </div>
+      <div class="item"><label for="proffession"><b>proffession</b></label>
+      <input type="text" placeholder="your proffession" name="proffesion" required></div>
+      <div class="item"><label for="phone number"><b>phone number</b></label>
+        <input type="text" placeholder="+2457000000000" name="phone number" required></div>
+      <div class="item"><label for="email"><b>email:</b></label>
+      <input type="text" placeholder="Email" name="email" required></div>
+      <div class="item"><label for ="password change"><b>change password</b></label>
+      <input type="button" onclick="alert('are you sure?')" value="change password"></div>
+      <input type="button" onclick="alert('here we go')" value="more information"></div>
+      <div class="item"><button type="submit">Submit</button></div>
+      </form>
+  </div>
+</body>
+</html>
